@@ -1,0 +1,10 @@
+# Load Oh My Zsh from the Nix store
+source ${ZDOTDIR:-$HOME}/.nix-profile/share/oh-my-zsh/oh-my-zsh.sh
+
+if [[ -f "$HOME/.zsh/plugins/powerlevel10k/share/zsh-powerlevel10k/powerlevel10k.zsh-theme" ]]; then
+    source "$HOME/.zsh/plugins/powerlevel10k/share/zsh-powerlevel10k/powerlevel10k.zsh-theme"
+fi
+if [[ -f "$HOME/.zsh/plugins/powerlevel10k-config/p10k.zsh" ]]; then
+    source "$HOME/.zsh/plugins/powerlevel10k-config/p10k.zsh"
+fi
+
