@@ -38,6 +38,8 @@
         yazi
         tmux
         neovim
+        git-lfs
+        nodejs
     ];
 
 
